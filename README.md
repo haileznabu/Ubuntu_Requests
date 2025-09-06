@@ -46,10 +46,26 @@ This project embodies Ubuntu's core values:
 ## File Structure
 
 \`\`\`
+SQL Joins Assignment/
+├── answers.sql                    # SQL queries for the assignment
 ├── scripts/
-│   └── ubuntu_image_fetcher.py    # Main image fetcher script
+│   └── ubuntu_image_fetcher.py    # Python image fetcher script
 ├── Fetched_Images/                # Downloaded images directory (created automatically)
-└── README.md                      # This file
+├── README.md                      # This file
+├── app/
+│   ├── layout.tsx                 # Next.js layout component
+│   └── globals.css                # Global styles
+├── components/
+│   ├── theme-provider.tsx         # Theme provider component
+│   └── ui/                        # UI components (button, card, etc.)
+├── hooks/
+│   ├── use-mobile.tsx             # Mobile detection hook
+│   └── use-toast.ts               # Toast notification hook
+├── lib/
+│   └── utils.ts                   # Utility functions
+├── next.config.mjs                # Next.js configuration
+├── package.json                   # Node.js dependencies
+└── tsconfig.json                  # TypeScript configuration
 \`\`\`
 
 ## Error Handling
