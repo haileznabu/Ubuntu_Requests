@@ -26,7 +26,7 @@ pip install requests Pillow
 
 2. Run the script:
 \`\`\`bash
-python scripts/ubuntu_image_fetcher.py
+python ubuntu_image_fetcher.py
 \`\`\`
 
 ## Usage
@@ -46,30 +46,9 @@ This project embodies Ubuntu's core values:
 ## File Structure
 
 \`\`\`
-SQL Joins Assignment/
-├── answers.sql                    # SQL queries for the assignment
-├── scripts/
-│   └── ubuntu_image_fetcher.py    # Python image fetcher script
+├── ubuntu_image_fetcher.py    # Main image fetcher script
 ├── Fetched_Images/                # Downloaded images directory (created automatically)
-├── README.md                      # This file
-├── app/
-│   ├── page.tsx                   # Next.js main page component
-│   ├── layout.tsx                 # Next.js layout component
-│   └── globals.css                # Global styles
-├── components/
-│   ├── theme-provider.tsx         # Theme provider component
-│   └── ui/                        # UI components (button, card, etc.)
-│       ├── button.tsx
-│       ├── card.tsx
-│       └── ...
-├── hooks/
-│   ├── use-mobile.tsx             # Mobile detection hook
-│   └── use-toast.ts               # Toast notification hook
-├── lib/
-│   └── utils.ts                   # Utility functions
-├── next.config.mjs                # Next.js configuration
-├── package.json                   # Node.js dependencies
-└── tsconfig.json                  # TypeScript configuration
+└── README.md                      # This file
 \`\`\`
 
 ## Error Handling
