@@ -53,11 +53,15 @@ SQL Joins Assignment/
 ├── Fetched_Images/                # Downloaded images directory (created automatically)
 ├── README.md                      # This file
 ├── app/
+│   ├── page.tsx                   # Next.js main page component
 │   ├── layout.tsx                 # Next.js layout component
 │   └── globals.css                # Global styles
 ├── components/
 │   ├── theme-provider.tsx         # Theme provider component
 │   └── ui/                        # UI components (button, card, etc.)
+│       ├── button.tsx
+│       ├── card.tsx
+│       └── ...
 ├── hooks/
 │   ├── use-mobile.tsx             # Mobile detection hook
 │   └── use-toast.ts               # Toast notification hook
