@@ -45,11 +45,9 @@ This project embodies Ubuntu's core values:
 
 ## File Structure
 
-\`\`\`
-├── ubuntu_image_fetcher.py    # Main image fetcher script
-├── Fetched_Images/                # Downloaded images directory (created automatically)
-└── README.md                      # This file
-\`\`\`
+├── ubuntu_image_fetcher.py   # Main image fetcher script
+├── Fetched_Images/           # Downloaded images directory (created automatically)
+└── README.md                 # Project documentation
 
 ## Error Handling
 
